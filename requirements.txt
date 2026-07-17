@@ -11,4 +11,4 @@ pyYAML
 mlflow==2.9.2
 dagshub
 fastapi
--e .
+.
